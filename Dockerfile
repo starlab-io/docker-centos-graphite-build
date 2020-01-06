@@ -1,5 +1,5 @@
 FROM starlabio/centos-base:3
-MAINTAINER David Esler <david.esler@starlab.io>
+MAINTAINER David Esler <adam.schwalm@starlab.io>
 
 RUN yum install -y libidn-devel zlib-devel ncurses-devel dev86 iasl \
         gettext openssl-devel pciutils-devel libuuid-devel \
